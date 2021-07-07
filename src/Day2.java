@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Day2 {
     public static void main(String args[]) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("passwordphilosophy.txt"));
+        BufferedReader br = new BufferedReader(new FileReader("day2.txt"));
         List<Password> passwords = new ArrayList<>();
         String line = br.readLine();
         while(line != null) {
